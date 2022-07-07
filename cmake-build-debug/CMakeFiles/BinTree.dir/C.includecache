@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/CLionProjects/C/BinTree.c
+stdio.h
+F:/CLionProjects/C/stdio.h
+stdlib.h
+F:/CLionProjects/C/stdlib.h
+

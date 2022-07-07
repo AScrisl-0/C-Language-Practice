@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/CLionProjects/C/LNode.c
+ntsecpkg.h
+-
+vss.h
+-
+stdbool.h
+-
+stdlib.h
+F:/CLionProjects/C/stdlib.h
+stdio.h
+F:/CLionProjects/C/stdio.h
+

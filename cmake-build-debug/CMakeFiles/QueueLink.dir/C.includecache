@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/CLionProjects/C/QueueLink.c
+vss.h
+-
+wingdi.h
+-
+stdlib.h
+-
+stdio.h
+F:/CLionProjects/C/stdio.h
+

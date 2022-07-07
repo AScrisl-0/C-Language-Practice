@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i.p">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/i.p.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 i.p"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i.p/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/i.p.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 i.p/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strcut.Test">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Strcut.Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Strcut.Test"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strcut.Test/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Strcut.Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Strcut.Test/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stack">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stack/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLink">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/StackLink.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackLink"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLink/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/StackLink.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackLink/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LNodeLink">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/LNodeLink.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 LNodeLink"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LNodeLink/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/LNodeLink.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 LNodeLink/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Queue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queue"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/Queue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queue/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QueueLink">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/QueueLink.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 QueueLink"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QueueLink/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/QueueLink.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 QueueLink/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BinTree">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/BinTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinTree"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BinTree/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/BinTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinTree/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LNode">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/LNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 LNode"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LNode/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/LNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 LNode/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="String">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/String.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 String"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="String/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/String.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 String/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calc.1">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/calc.1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 calc.1"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calc.1/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/calc.1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 calc.1/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CT01">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/CT01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 CT01"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CT01/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/CT01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 CT01/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1st">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/1st.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 1st"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1st/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/1st.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 1st/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2nd">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/2nd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 2nd"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2nd/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/2nd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 2nd/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3rd">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/3rd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3rd"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3rd/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/3rd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 3rd/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/4th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 4th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/4th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 4th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/5th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 5th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/5th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 5th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/6th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 6th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/6th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 6th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/7th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 7th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/7th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 7th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/8th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 8th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/8th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 8th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="9th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/9th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 9th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="9th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/9th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 9th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/10th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 10th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/10th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 10th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11th">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/11th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 11th"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11th/fast">
+				<Option output="F:/CLionProjects/C/cmake-build-debug/11th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 11th/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/CLionProjects/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/CLionProjects/C/BinTree.c">
+			<Option target="BinTree"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/CT01.c">
+			<Option target="CT01"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/10th.c">
+			<Option target="10th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/11th.c">
+			<Option target="11th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/1st.c">
+			<Option target="1st"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/2nd.c">
+			<Option target="2nd"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/3rd.c">
+			<Option target="3rd"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/4th.c">
+			<Option target="4th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/5th.c">
+			<Option target="5th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/6th.c">
+			<Option target="6th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/7th.c">
+			<Option target="7th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/8th.c">
+			<Option target="8th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/C_Premium/9th.c">
+			<Option target="9th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/LNode.c">
+			<Option target="LNode"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/LNodeLink.c">
+			<Option target="LNodeLink"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/Queue.c">
+			<Option target="Queue"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/QueueLink.c">
+			<Option target="QueueLink"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/Stack.c">
+			<Option target="Stack"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/StackLink.c">
+			<Option target="StackLink"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/Strcut.Test.c">
+			<Option target="Strcut.Test"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/String.c">
+			<Option target="String"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/Test.c">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/calc.1.c">
+			<Option target="calc.1"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/i.p.c">
+			<Option target="i.p"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/main.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

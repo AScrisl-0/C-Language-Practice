@@ -1,0 +1,3 @@
+"G:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\7th.dir/objects.a
+F:\PROGRA~1\MINGW-~1.0-P\mingw32\bin\ar.exe qc CMakeFiles\7th.dir/objects.a @CMakeFiles\7th.dir\objects1.rsp
+F:\PROGRA~1\MINGW-~1.0-P\mingw32\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\7th.dir/objects.a -Wl,--no-whole-archive -o 7th.exe -Wl,--out-implib,lib7th.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\7th.dir\linklibs.rsp
