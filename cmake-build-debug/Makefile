@@ -440,6 +440,19 @@ CT01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11th.dir\build.make CMakeFiles/11th.dir/build
 .PHONY : 11th/fast
 
+#=============================================================================
+# Target rules for targets named Hello
+
+# Build rule for target.
+Hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hello
+.PHONY : Hello
+
+# fast build rule for target.
+Hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/build
+.PHONY : Hello/fast
+
 BinTree.obj: BinTree.c.obj
 .PHONY : BinTree.obj
 
@@ -752,6 +765,30 @@ C_Premium/9th.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9th.dir\build.make CMakeFiles/9th.dir/C_Premium/9th.c.s
 .PHONY : C_Premium/9th.c.s
 
+Hello.obj: Hello.c.obj
+.PHONY : Hello.obj
+
+# target to build an object file
+Hello.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/Hello.c.obj
+.PHONY : Hello.c.obj
+
+Hello.i: Hello.c.i
+.PHONY : Hello.i
+
+# target to preprocess a source file
+Hello.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/Hello.c.i
+.PHONY : Hello.c.i
+
+Hello.s: Hello.c.s
+.PHONY : Hello.s
+
+# target to generate assembly for a file
+Hello.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/Hello.c.s
+.PHONY : Hello.c.s
+
 LNode.obj: LNode.c.obj
 .PHONY : LNode.obj
 
@@ -1062,6 +1099,7 @@ help:
 	@echo ... BinTree
 	@echo ... C
 	@echo ... CT01
+	@echo ... Hello
 	@echo ... LNode
 	@echo ... LNodeLink
 	@echo ... Queue
@@ -1112,6 +1150,9 @@ help:
 	@echo ... C_Premium/9th.obj
 	@echo ... C_Premium/9th.i
 	@echo ... C_Premium/9th.s
+	@echo ... Hello.obj
+	@echo ... Hello.i
+	@echo ... Hello.s
 	@echo ... LNode.obj
 	@echo ... LNode.i
 	@echo ... LNode.s

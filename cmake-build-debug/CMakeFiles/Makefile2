@@ -87,6 +87,7 @@ all: CMakeFiles/8th.dir/all
 all: CMakeFiles/9th.dir/all
 all: CMakeFiles/10th.dir/all
 all: CMakeFiles/11th.dir/all
+all: CMakeFiles/Hello.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -119,6 +120,7 @@ clean: CMakeFiles/8th.dir/clean
 clean: CMakeFiles/9th.dir/clean
 clean: CMakeFiles/10th.dir/clean
 clean: CMakeFiles/11th.dir/clean
+clean: CMakeFiles/Hello.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -154,7 +156,7 @@ CMakeFiles/C.dir/clean:
 CMakeFiles/Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Test"
 .PHONY : CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -180,7 +182,7 @@ CMakeFiles/Test.dir/clean:
 CMakeFiles/i.p.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\i.p.dir\build.make CMakeFiles/i.p.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\i.p.dir\build.make CMakeFiles/i.p.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target i.p"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target i.p"
 .PHONY : CMakeFiles/i.p.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,7 +208,7 @@ CMakeFiles/i.p.dir/clean:
 CMakeFiles/Strcut.Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Strcut.Test.dir\build.make CMakeFiles/Strcut.Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Strcut.Test.dir\build.make CMakeFiles/Strcut.Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Strcut.Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Strcut.Test"
 .PHONY : CMakeFiles/Strcut.Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -232,7 +234,7 @@ CMakeFiles/Strcut.Test.dir/clean:
 CMakeFiles/Stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Stack"
 .PHONY : CMakeFiles/Stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +260,7 @@ CMakeFiles/Stack.dir/clean:
 CMakeFiles/StackLink.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLink.dir\build.make CMakeFiles/StackLink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLink.dir\build.make CMakeFiles/StackLink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target StackLink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target StackLink"
 .PHONY : CMakeFiles/StackLink.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +286,7 @@ CMakeFiles/StackLink.dir/clean:
 CMakeFiles/LNodeLink.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LNodeLink.dir\build.make CMakeFiles/LNodeLink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LNodeLink.dir\build.make CMakeFiles/LNodeLink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target LNodeLink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target LNodeLink"
 .PHONY : CMakeFiles/LNodeLink.dir/all
 
 # Build rule for subdir invocation for target.
@@ -310,7 +312,7 @@ CMakeFiles/LNodeLink.dir/clean:
 CMakeFiles/Queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target Queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Queue"
 .PHONY : CMakeFiles/Queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,7 +338,7 @@ CMakeFiles/Queue.dir/clean:
 CMakeFiles/QueueLink.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QueueLink.dir\build.make CMakeFiles/QueueLink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QueueLink.dir\build.make CMakeFiles/QueueLink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target QueueLink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target QueueLink"
 .PHONY : CMakeFiles/QueueLink.dir/all
 
 # Build rule for subdir invocation for target.
@@ -388,7 +390,7 @@ CMakeFiles/BinTree.dir/clean:
 CMakeFiles/LNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LNode.dir\build.make CMakeFiles/LNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LNode.dir\build.make CMakeFiles/LNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target LNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target LNode"
 .PHONY : CMakeFiles/LNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -414,7 +416,7 @@ CMakeFiles/LNode.dir/clean:
 CMakeFiles/String.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target String"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target String"
 .PHONY : CMakeFiles/String.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,7 +442,7 @@ CMakeFiles/String.dir/clean:
 CMakeFiles/calc.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.1.dir\build.make CMakeFiles/calc.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.1.dir\build.make CMakeFiles/calc.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target calc.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target calc.1"
 .PHONY : CMakeFiles/calc.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -770,6 +772,32 @@ CMakeFiles/11th.dir/rule: cmake_check_build_system
 CMakeFiles/11th.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11th.dir\build.make CMakeFiles/11th.dir/clean
 .PHONY : CMakeFiles/11th.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hello.dir
+
+# All Build rule for target.
+CMakeFiles/Hello.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target Hello"
+.PHONY : CMakeFiles/Hello.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hello.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Hello.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLionProjects\GitHub-C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Hello.dir/rule
+
+# Convenience name for target.
+Hello: CMakeFiles/Hello.dir/rule
+.PHONY : Hello
+
+# clean rule for target.
+CMakeFiles/Hello.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello.dir\build.make CMakeFiles/Hello.dir/clean
+.PHONY : CMakeFiles/Hello.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

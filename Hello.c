@@ -12,9 +12,9 @@
 int main()
 
 {
-    printf("Hello World !");
-    printf("Hello Git !");
-    printf("Hello GitHub !");
-    printf("Hello Gitee !");
+    printf("Hello World !\n");
+    printf("Hello Git !\n");
+    printf("Hello GitHub !\n");
+    printf("Hello Gitee !\n");
     return 0;
 }

@@ -917,6 +917,42 @@
 					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Hello">
+				<Option output="F:/CLionProjects/GitHub-C/cmake-build-debug/Hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/GitHub-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello/fast">
+				<Option output="F:/CLionProjects/GitHub-C/cmake-build-debug/Hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLionProjects/GitHub-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello/fast"/>
+					<CompileFile command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/PROGRA~1/MINGW-~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/CLionProjects/GitHub-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="F:/CLionProjects/GitHub-C/cmake-build-debug"/>
 				<Option type="4"/>
@@ -976,6 +1012,9 @@
 		</Unit>
 		<Unit filename="F:/CLionProjects/GitHub-C/C_Premium/9th.c">
 			<Option target="9th"/>
+		</Unit>
+		<Unit filename="F:/CLionProjects/GitHub-C/Hello.c">
+			<Option target="Hello"/>
 		</Unit>
 		<Unit filename="F:/CLionProjects/GitHub-C/LNode.c">
 			<Option target="LNode"/>
