@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/i.p.dir/i.p.c.obj"
+  "CMakeFiles/i.p.dir/i.p.c.obj.d"
   "i.p.exe"
   "i.p.exe.manifest"
   "i.p.pdb"

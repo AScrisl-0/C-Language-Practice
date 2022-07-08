@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QueueLink.dir/QueueLink.c.obj"
+  "CMakeFiles/QueueLink.dir/QueueLink.c.obj.d"
   "QueueLink.exe"
   "QueueLink.exe.manifest"
   "QueueLink.pdb"

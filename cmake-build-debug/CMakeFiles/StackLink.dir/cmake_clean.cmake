@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/StackLink.dir/StackLink.c.obj"
+  "CMakeFiles/StackLink.dir/StackLink.c.obj.d"
   "StackLink.exe"
   "StackLink.exe.manifest"
   "StackLink.pdb"

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "7th.exe.manifest"
   "7th.pdb"
   "CMakeFiles/7th.dir/C_Premium/7th.c.obj"
+  "CMakeFiles/7th.dir/C_Premium/7th.c.obj.d"
   "lib7th.dll.a"
 )
 

@@ -4,20 +4,11 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "F:/CLionProjects/C/i.p.c" "F:/CLionProjects/C/cmake-build-debug/CMakeFiles/i.p.dir/i.p.c.obj"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "F:/CLionProjects/GitHub-C/i.p.c" "CMakeFiles/i.p.dir/i.p.c.obj" "gcc" "CMakeFiles/i.p.dir/i.p.c.obj.d"
   )
 
 # Targets to which this target links.

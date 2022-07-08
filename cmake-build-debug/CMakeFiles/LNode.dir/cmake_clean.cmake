@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LNode.dir/LNode.c.obj"
+  "CMakeFiles/LNode.dir/LNode.c.obj.d"
   "LNode.exe"
   "LNode.exe.manifest"
   "LNode.pdb"

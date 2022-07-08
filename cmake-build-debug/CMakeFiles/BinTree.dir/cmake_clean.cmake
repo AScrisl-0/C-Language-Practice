@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "BinTree.exe.manifest"
   "BinTree.pdb"
   "CMakeFiles/BinTree.dir/BinTree.c.obj"
+  "CMakeFiles/BinTree.dir/BinTree.c.obj.d"
   "libBinTree.dll.a"
 )
 

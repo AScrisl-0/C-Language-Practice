@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LNodeLink.dir/LNodeLink.c.obj"
+  "CMakeFiles/LNodeLink.dir/LNodeLink.c.obj.d"
   "LNodeLink.exe"
   "LNodeLink.exe.manifest"
   "LNodeLink.pdb"

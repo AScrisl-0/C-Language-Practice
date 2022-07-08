@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Strcut.Test.dir/Strcut.Test.c.obj"
+  "CMakeFiles/Strcut.Test.dir/Strcut.Test.c.obj.d"
   "Strcut.Test.exe"
   "Strcut.Test.exe.manifest"
   "Strcut.Test.pdb"

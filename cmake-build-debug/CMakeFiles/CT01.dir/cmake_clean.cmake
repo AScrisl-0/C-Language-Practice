@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CT01.dir/CT01.c.obj"
+  "CMakeFiles/CT01.dir/CT01.c.obj.d"
   "CT01.exe"
   "CT01.exe.manifest"
   "CT01.pdb"

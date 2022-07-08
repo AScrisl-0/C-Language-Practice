@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Queue.dir/Queue.c.obj"
+  "CMakeFiles/Queue.dir/Queue.c.obj.d"
   "Queue.exe"
   "Queue.exe.manifest"
   "Queue.pdb"

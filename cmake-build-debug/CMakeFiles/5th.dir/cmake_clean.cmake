@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "5th.exe.manifest"
   "5th.pdb"
   "CMakeFiles/5th.dir/C_Premium/5th.c.obj"
+  "CMakeFiles/5th.dir/C_Premium/5th.c.obj.d"
   "lib5th.dll.a"
 )
 
